@@ -102,3 +102,6 @@ def get_emails():
     else:
         return jsonify({"message": "Nenhum e-mail da Betano encontrado"}), 404
 
+
+if __name__ == '__main__':
+    app.run(debug=True)
